@@ -107,7 +107,9 @@ export const DATA = {
       description:
         "This project is a tool designed to extract notes from YouTube videos. It's a personal side project.",
       technologies: [
-        "opencv-python",
+        "Python",
+        "CLI",
+        "opencv",
         "tkinter",
         "reportlab",
         "yt-dlp",
@@ -193,17 +195,17 @@ export const DATA = {
   ],
   more_projects: [
     {
-      title: "codeforces-problem-search",
-      href: "https://github.com/m3hu1/codeforces-problem-search",
-      dates: "Jan 2025",
+      title: "ems",
+      href: "https://github.com/abhii-909/ems",
+      dates: "Aug 2025",
       active: true,
       description:
-        "This is a Raycast extension that fetches all details of a problem from codeforces using the problem id or problem name.",
-      technologies: ["Raycast", "Extension", "TypeScript", "Node.js", "React"],
+        "Made an employee management system to practice react",
+      technologies: ["React + Vite", "ESLint", "Javascript", "HTML", "Tailwind CSS"],
       links: [
         {
           type: "Repository",
-          href: "https://github.com/m3hu1/codeforces-problem-search",
+          href: "https://github.com/abhii-909/ems",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -211,94 +213,22 @@ export const DATA = {
       // video: "",
     },
     {
-      title: "cf-testcases-checker-rust",
-      href: "https://github.com/m3hu1/cf-testcases-checker-rust",
-      dates: "Jan 2025",
+      title: "nerdNarratives ",
+      href: "https://github.com/abhii-909/nerdNarratives",
+      dates: "June 2025",
       active: true,
       description:
-        "Simple command-line tool written in Rust to fetch and run test cases for Codeforces problems against your Golang solutions.",
-      technologies: ["Rust", "CLI"],
-      links: [
-        {
-          type: "Repository",
-          href: "https://github.com/m3hu1/cf-testcases-checker-rust",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      // video: "",
-    },
-    {
-      title: "learning-go",
-      href: "https://github.com/m3hu1/learning-go",
-      dates: "Nov 2024",
-      active: true,
-      description:
-        "Collection of programs and projects that I built using Go while learning the Go programming language.",
-      technologies: ["Go", "Misc"],
-      links: [
-        {
-          type: "Repository",
-          href: "https://github.com/m3hu1/learning-go",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      // video: "",
-    },
-    {
-      title: "go-todo",
-      href: "https://github.com/m3hu1/golang-todo-cli",
-      dates: "Sept 2024",
-      active: true,
-      description:
-        "A Go-based CLI for todo task management using Cobra. Supports adding, listing, completing, and deleting tasks with CSV persistence.",
-      technologies: ["Go", "Cobra", "CRUD", "CLI"],
-      links: [
-        {
-          type: "Repository",
-          href: "https://github.com/m3hu1/golang-todo-cli",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      // video: "",
-    },
-    {
-      title: "go-typing-test",
-      href: "https://github.com/m3hu1/typing-test-golang",
-      dates: "Oct 2024",
-      active: true,
-      description:
-        "A typing test application that leverages Go for the backend. This project showcases my learning journey in Golang.",
-      technologies: ["Go", "HTML", "CSS", "HTTP", "Server"],
-      links: [
-        {
-          type: "Repository",
-          href: "https://github.com/m3hu1/typing-test-golang",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      // video: "",
-    },
-    {
-      title: "ceh-notes",
-      href: "https://cehnotes.netlify.app",
-      dates: "Oct 2024",
-      active: true,
-      description:
-        "Revived study notes for the EC-Council Certified Ethical Hacker (C|EH) v12 exam originally by @findmeandkillme hosted using HonKit.",
-      technologies: ["HonKit", "GitBook", "Markdown", "Notes", "Netlify"],
+        "Retro version of my blog website",
+      technologies: ["HTML", "Tailwind CSS"],
       links: [
         {
           type: "Website",
-          href: "https://cehnotes.netlify.app",
+          href: "https://nerdnarratives.onrender.com",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Repository",
-          href: "https://github.com/m3hu1/ceh-notes",
+          href: "https://github.com/abhii-909/nerdNarratives",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -306,17 +236,22 @@ export const DATA = {
       // video: "",
     },
     {
-      title: "auto-typer",
-      href: "https://github.com/m3hu1/auto-typer",
-      dates: "Feb 2024 - Apr 2024",
+      title: "whack-a-hoe",
+      href: "https://github.com/abhii-909/whack-a-hoe",
+      dates: "July 2025",
       active: true,
       description:
-        "Python and C++ scripts to automate keyboard typing based on the content of a text file.",
-      technologies: ["Python", "C++", "CLI"],
+        "a fun side project",
+      technologies: ["HTML", "CSS", "Javascript"],
       links: [
         {
+          type: "Website",
+          href: "https://whack-a-hoe.onrender.com",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
           type: "Repository",
-          href: "https://github.com/m3hu1/auto-typer",
+          href: "https://github.com/abhii-909/whack-a-hoe",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -324,17 +259,17 @@ export const DATA = {
       // video: "",
     },
     {
-      title: "perfect-circle-exploit",
-      href: "https://github.com/m3hu1/perfect-circle",
-      dates: "Dec 2023",
+      title: "Astro-Trivia",
+      href: "https://github.com/abhii-909/Astro-Trivia",
+      dates: "Oct 2024",
       active: true,
       description:
-        "MacOS only. Exploit to draw a perfect circle (99.9%) on Neal.fun's Perfect Circle Challenge.",
-      technologies: ["C++", "CLI", "Exploit"],
+        "quiz webapp for PLANETBEYOND project in the NASA hackathon",
+      technologies: ["HTML", "CSS", "Javascript"],
       links: [
         {
           type: "Repository",
-          href: "https://github.com/m3hu1/perfect-circle",
+          href: "https://github.com/abhii-909/Astro-Trivia",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -342,40 +277,153 @@ export const DATA = {
       // video: "",
     },
     {
-      title: "instagram-impostor",
-      href: "https://github.com/m3hu1/impostor",
-      dates: "Jun 2024",
+      title: "ContactForge",
+      href: "https://github.com/abhii-909/ContactForge",
+      dates: "May 2025",
       active: true,
       description:
-        "A python3 script to identify Instagram accounts that don't follow you back.",
-      technologies: ["Python", "CLI", "Fun"],
+        "A Python-powered GUI tool with MySQL integration for seamless contact management, featuring real-time validation and intuitive double-click editing.",
+      technologies: ["Python", "MySQL", "Tkinter", "Regular Expressions"],
       links: [
         {
           type: "Repository",
-          href: "https://github.com/m3hu1/impostor",
+          href: "https://github.com/abhii-909/ContactForge",
           icon: <Icons.github className="size-3" />,
         },
       ],
       image: "",
       // video: "",
     },
-    {
-      title: "cpp-fms",
-      href: "https://github.com/m3hu1/terminalplusplus",
-      dates: "Nov 2023 - Dec 2023",
-      active: true,
-      description:
-        "A C++ based command-line interface (CLI) file management system that implements essential operations from scratch.",
-      technologies: ["C++", "CLI", "Collaboration"],
-      links: [
-        {
-          type: "Repository",
-          href: "https://github.com/m3hu1/terminalplusplus",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      // video: "",
-    },
+    // {
+    //   title: "go-todo",
+    //   href: "https://github.com/m3hu1/golang-todo-cli",
+    //   dates: "Sept 2024",
+    //   active: true,
+    //   description:
+    //     "A Go-based CLI for todo task management using Cobra. Supports adding, listing, completing, and deleting tasks with CSV persistence.",
+    //   technologies: ["Go", "Cobra", "CRUD", "CLI"],
+    //   links: [
+    //     {
+    //       type: "Repository",
+    //       href: "https://github.com/m3hu1/golang-todo-cli",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   // video: "",
+    // },
+    // {
+    //   title: "go-typing-test",
+    //   href: "https://github.com/m3hu1/typing-test-golang",
+    //   dates: "Oct 2024",
+    //   active: true,
+    //   description:
+    //     "A typing test application that leverages Go for the backend. This project showcases my learning journey in Golang.",
+    //   technologies: ["Go", "HTML", "CSS", "HTTP", "Server"],
+    //   links: [
+    //     {
+    //       type: "Repository",
+    //       href: "https://github.com/m3hu1/typing-test-golang",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   // video: "",
+    // },
+    // {
+    //   title: "ceh-notes",
+    //   href: "https://cehnotes.netlify.app",
+    //   dates: "Oct 2024",
+    //   active: true,
+    //   description:
+    //     "Revived study notes for the EC-Council Certified Ethical Hacker (C|EH) v12 exam originally by @findmeandkillme hosted using HonKit.",
+    //   technologies: ["HonKit", "GitBook", "Markdown", "Notes", "Netlify"],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://cehnotes.netlify.app",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Repository",
+    //       href: "https://github.com/m3hu1/ceh-notes",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   // video: "",
+    // },
+    // {
+    //   title: "auto-typer",
+    //   href: "https://github.com/m3hu1/auto-typer",
+    //   dates: "Feb 2024 - Apr 2024",
+    //   active: true,
+    //   description:
+    //     "Python and C++ scripts to automate keyboard typing based on the content of a text file.",
+    //   technologies: ["Python", "C++", "CLI"],
+    //   links: [
+    //     {
+    //       type: "Repository",
+    //       href: "https://github.com/m3hu1/auto-typer",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   // video: "",
+    // },
+    // {
+    //   title: "perfect-circle-exploit",
+    //   href: "https://github.com/m3hu1/perfect-circle",
+    //   dates: "Dec 2023",
+    //   active: true,
+    //   description:
+    //     "MacOS only. Exploit to draw a perfect circle (99.9%) on Neal.fun's Perfect Circle Challenge.",
+    //   technologies: ["C++", "CLI", "Exploit"],
+    //   links: [
+    //     {
+    //       type: "Repository",
+    //       href: "https://github.com/m3hu1/perfect-circle",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   // video: "",
+    // },
+    // {
+    //   title: "instagram-impostor",
+    //   href: "https://github.com/m3hu1/impostor",
+    //   dates: "Jun 2024",
+    //   active: true,
+    //   description:
+    //     "A python3 script to identify Instagram accounts that don't follow you back.",
+    //   technologies: ["Python", "CLI", "Fun"],
+    //   links: [
+    //     {
+    //       type: "Repository",
+    //       href: "https://github.com/m3hu1/impostor",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   // video: "",
+    // },
+    // {
+    //   title: "cpp-fms",
+    //   href: "https://github.com/m3hu1/terminalplusplus",
+    //   dates: "Nov 2023 - Dec 2023",
+    //   active: true,
+    //   description:
+    //     "A C++ based command-line interface (CLI) file management system that implements essential operations from scratch.",
+    //   technologies: ["C++", "CLI", "Collaboration"],
+    //   links: [
+    //     {
+    //       type: "Repository",
+    //       href: "https://github.com/m3hu1/terminalplusplus",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "",
+    //   // video: "",
+    // },
   ],
 };
