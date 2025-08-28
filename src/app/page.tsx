@@ -205,7 +205,7 @@ export default function Page() {
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   I love building projects, whether they are simple websites or
-                  more complex web apps. Below are a few of my favorites.
+                  projects related to AI. Below are a few of my favorites.
                 </p>
               </div>
             </div>
@@ -242,7 +242,7 @@ export default function Page() {
                 </Link>
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I occasionally enjoy writing blogs, primarily about tech topics,
+                I occasionally enjoy writing blogs, about topics i find interesting,
                 but I also explore other subjects.
               </p>
             </div>

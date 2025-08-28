@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Blog",
-  description: "I occasionally enjoy writing blogs, primarily about tech topics.",
+  description: "I recently started writing blogs.",
 };
 
 const BLUR_FADE_DELAY = 0.04;
