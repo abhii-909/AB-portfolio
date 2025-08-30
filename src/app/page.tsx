@@ -178,7 +178,7 @@ export default function Page() {
                 Check out my{" "}
                 <Link
                 //resume link
-                  href="https://drive.google.com/file/d/1LLDsv8uzp07CVql618rH1E3a7t2U9p9W/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1RL_nZbn0DT_x4U3ah4mY8H7tloMwl6dj/view?usp=sharing"
                   target="_blank"
                   className="text-blue-500 underline-a"
                   // ref={resumeLinkRef}

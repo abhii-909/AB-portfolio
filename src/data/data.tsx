@@ -187,7 +187,7 @@ export const DATA = {
     {
       title: "ems",
       href: "https://github.com/abhii-909/ems",
-      dates: "Aug 2025",
+      dates: "July 2025",
       active: true,
       description:
         "Made an employee management system to practice react",
