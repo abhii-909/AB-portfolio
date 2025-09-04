@@ -4,7 +4,7 @@ import { FolderOpen, HomeIcon } from "lucide-react";
 export const DATA = {
   name: "Abbhinav Mishra",
   initials: "AM",
-  url: "https://www.mehulpathak.com",
+  url: "https://abbhinav.vercel.app/",
   description:
     "pre-final year university student with a knack for problem-solving and learning new technologies.",
   summary:
