@@ -162,7 +162,7 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section id="resume">
+      {/* <section id="resume">
         <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <div className="space-y-3">
@@ -170,7 +170,7 @@ export default function Page() {
                 Check out my{" "}
                 <Link
                 //resume link
-                  href="https://drive.google.com/file/d/1RL_nZbn0DT_x4U3ah4mY8H7tloMwl6dj/view?usp=sharing"
+                  href=""
                   target="_blank"
                   className="text-blue-500 underline-a"
                   // ref={resumeLinkRef}
@@ -181,7 +181,7 @@ export default function Page() {
             </div>
           </BlurFade>
         </div>
-      </section>
+      </section> */}
 
       <section id="projects">
         <div className="-mt-4 space-y-12 w-full py-12">
