@@ -167,7 +167,7 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 9}>
             <div className="space-y-3">
               <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">
-                Check out my{" "}
+                Check out my{"kuch cheeze college ke logo ko nahi dikha sakte lol"}
                 <Link
                 //resume link
                   href=""
