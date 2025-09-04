@@ -17,25 +17,12 @@ import Particles from "@/components/magicui/particles";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
-  const blogLinkRef = useRef<HTMLAnchorElement>(null);
   const resumeLinkRef = useRef<HTMLAnchorElement>(null);
   const emailLinkRef = useRef<HTMLAnchorElement>(null);
   const twitterLinkRef = useRef<HTMLAnchorElement>(null);
   const skillsHeadingRef = useRef<HTMLHeadingElement>(null);
   const aboutHeadingRef = useRef<HTMLHeadingElement>(null);
 
-  useEffect(() => {
-    if (blogLinkRef.current) {
-      const annotation = annotate(blogLinkRef.current, {
-        type: 'underline',
-        color: '#3C82F6',
-        strokeWidth: 3,
-        padding: 1,
-        animationDuration: 1000,
-      });
-      annotation.show();
-    }
-  }, []);
   useEffect(() => {
     if (resumeLinkRef.current) {
       const annotation = annotate(resumeLinkRef.current, {
@@ -120,13 +107,18 @@ export default function Page() {
             </div>
             <BlurFade delay={BLUR_FADE_DELAY}>
               <Avatar className="size-28 border">
-                <AvatarImage alt={DATA.name} src={DATA.avatarUrlDark} />
-                {/* <AvatarImage
-                  alt={DATA.name}
-                  src={
-                    theme === "dark" ? DATA.avatarUrlDark : DATA.avatarUrlLight
-                  }
-                /> */}
+                {DATA.avatarVideoUrl ? (
+                  <video
+                    src={DATA.avatarVideoUrl}
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="pointer-events-none mx-auto h-full w-full object-cover rounded-full"
+                  />
+                ) : (
+                  <AvatarImage alt={DATA.name} src={DATA.avatarUrlDark} />
+                )}
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
@@ -229,24 +221,6 @@ export default function Page() {
               </BlurFade>
             ))}
           </div>
-        </div>
-      </section>
-      <section id="blog">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 12}>
-            <div className="space-y-3">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Check out my{" "}
-                <Link href="/blog" className="text-blue-500 underline-a" >
-                  blog.
-                </Link>
-              </h2>
-              <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                I occasionally enjoy writing blogs, about topics i find interesting,
-                but I also explore other subjects.
-              </p>
-            </div>
-          </BlurFade>
         </div>
       </section>
       <section id="contact">
