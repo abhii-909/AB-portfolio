@@ -162,26 +162,6 @@ export default function Page() {
           </div>
         </div>
       </section>
-      {/* <section id="resume">
-        <div className="grid items-center justify-center gap-4 px-4 text-center md:px-6 w-full py-12">
-          <BlurFade delay={BLUR_FADE_DELAY * 9}>
-            <div className="space-y-3">
-              <h3 className="text-2xl font-bold tracking-tighter sm:text-3xl">
-                Check out my{"kuch cheeze college ke logo ko nahi dikha sakte lol"}
-                <Link
-                //resume link
-                  href=""
-                  target="_blank"
-                  className="text-blue-500 underline-a"
-                  // ref={resumeLinkRef}
-                >
-                  resume.
-                </Link>
-              </h3>
-            </div>
-          </BlurFade>
-        </div>
-      </section> */}
 
       <section id="projects">
         <div className="-mt-4 space-y-12 w-full py-12">
